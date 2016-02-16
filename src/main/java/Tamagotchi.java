@@ -16,7 +16,6 @@ public class Tamagotchi {
     mSleep = 7;
     mAge = 1;
   }
-
   public String getName() {
     return mName;
   }
@@ -32,14 +31,12 @@ public class Tamagotchi {
   public int getAge() {
     return mAge;
   }
-
   public void timePasses() {
     mFood--;
     mPlay--;
     mSleep--;
     mAge++;
   }
-
   public boolean isAlive() {
     return (mFood > 0 && mPlay > 0 && mSleep > 0 && mAge <= MAX_AGE);
   }
@@ -55,15 +52,12 @@ public class Tamagotchi {
   public int setAgeLevel(int newAge) {
     return mAge = newAge;
   }
-
   public int feed() {
     return setFoodLevel(MAX_FOOD);
   }
-
   public int play() {
     return setActivityLevel(MAX_PLAY);
   }
-
   public int sleep() {
     return setSleepLevel(MAX_SLEEP);
   }
