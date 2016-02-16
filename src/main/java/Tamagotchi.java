@@ -36,7 +36,6 @@ public class Tamagotchi {
   public boolean isAlive() {
     return (mFood > 0 && mPlay > 0 && mSleep > 0);
   }
-
   public int setFoodLevel(int newLevel) {
     return mFood = newLevel;
   }
@@ -45,5 +44,9 @@ public class Tamagotchi {
   }
   public int setSleepLevel(int newLevel) {
     return mSleep = newLevel;
+  }
+
+  public int feed() {
+    return setFoodLevel(MAX_FOOD);
   }
 }

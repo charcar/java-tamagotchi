@@ -46,4 +46,10 @@ public class TamagotchiTest {
     assertEquals(true, myPet.isAlive());
   }
 
+  @Test
+  public void feed_fillsFoodLevel_10() {
+    Tamagotchi myPet = new Tamagotchi("lil bubs");
+    assertEquals(10, myPet.feed());
+  }
+
 }
