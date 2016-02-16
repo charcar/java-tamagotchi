@@ -64,4 +64,11 @@ public class TamagotchiTest {
     assertEquals(10, myPet.sleep());
   }
 
+  @Test
+  public void timePasses_addsToAge_2() {
+    Tamagotchi myPet = new Tamagotchi("big bubba");
+    myPet.timePasses();
+    assertEquals(2, myPet.getAge());
+  }
+
 }
