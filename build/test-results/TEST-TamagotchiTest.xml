@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TamagotchiTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2016-02-16T21:14:23" hostname="epicodus-61.local" time="0.002">
+<testsuite name="TamagotchiTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2016-02-16T21:17:49" hostname="epicodus-61.local" time="0.005">
   <properties/>
   <testcase name="tamagotchi_instantiatesCorrectly" classname="TamagotchiTest" time="0.001"/>
   <testcase name="isAlive_foodLevelBelow1_false" classname="TamagotchiTest" time="0.0"/>
   <testcase name="isAlive_allLevelsAbove0_true" classname="TamagotchiTest" time="0.0"/>
   <testcase name="isAlive_foodLevelAbove0_true" classname="TamagotchiTest" time="0.0"/>
   <testcase name="timePasses_allLevelsDecreaseByOne" classname="TamagotchiTest" time="0.0"/>
+  <testcase name="isAlive_agesOver30_false" classname="TamagotchiTest" time="0.0"/>
   <testcase name="play_fillsActivityLevel_10" classname="TamagotchiTest" time="0.0"/>
   <testcase name="timePasses_addsToAge_2" classname="TamagotchiTest" time="0.0"/>
   <testcase name="sleep_fillsSleepLevel_10" classname="TamagotchiTest" time="0.0"/>

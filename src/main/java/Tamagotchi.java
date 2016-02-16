@@ -52,6 +52,9 @@ public class Tamagotchi {
   public int setSleepLevel(int newLevel) {
     return mSleep = newLevel;
   }
+  public int setAgeLevel(int newAge) {
+    return mAge = newAge;
+  }
 
   public int feed() {
     return setFoodLevel(MAX_FOOD);

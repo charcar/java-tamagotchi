@@ -71,4 +71,11 @@ public class TamagotchiTest {
     assertEquals(2, myPet.getAge());
   }
 
+  @Test
+  public void isAlive_agesOver30_false() {
+    Tamagotchi myPet = new Tamagotchi("bee bop");
+    myPet.setAgeLevel(31);
+    assertEquals(false, myPet.isAlive());
+  }
+
 }
