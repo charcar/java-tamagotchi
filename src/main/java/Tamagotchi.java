@@ -32,4 +32,12 @@ public class Tamagotchi {
     mPlay--;
     mSleep--;
   }
+
+  public boolean isAlive() {
+    return mFood > 0;
+  }
+
+  public int setFoodLevel(int newLevel) {
+    return mFood = newLevel;
+  }
 }

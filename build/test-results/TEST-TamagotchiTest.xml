@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TamagotchiTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2016-02-16T19:12:44" hostname="epicodus-61.local" time="0.0">
+<testsuite name="TamagotchiTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2016-02-16T19:18:18" hostname="epicodus-61.local" time="0.001">
   <properties/>
-  <testcase name="tamagotchi_instantiatesCorrectly" classname="TamagotchiTest" time="0.0"/>
+  <testcase name="tamagotchi_instantiatesCorrectly" classname="TamagotchiTest" time="0.001"/>
+  <testcase name="isAlive_foodLevelBelow1_false" classname="TamagotchiTest" time="0.0"/>
+  <testcase name="isAlive_foodLevelAbove0_true" classname="TamagotchiTest" time="0.0"/>
   <testcase name="timePasses_allLevelsDecreaseByOne" classname="TamagotchiTest" time="0.0"/>
   <testcase name="timePasses_foodGoesDownByOne_6" classname="TamagotchiTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
