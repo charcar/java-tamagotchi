@@ -12,5 +12,11 @@ public class TamagotchiTest {
     assertEquals(7, myPet.getActivityLevel());
   }
 
+  @Test
+  public void timePasses_foodGoesDownByOne_6() {
+    Tamagotchi myPet = new Tamagotchi("lil buddy");
+    myPet.timePasses();
+    assertEquals(6, myPet.getFoodLevel());
+  }
 
 }

@@ -17,16 +17,17 @@ public class Tamagotchi {
   public String getName() {
     return mName;
   }
-
   public int getFoodLevel() {
     return mFood;
   }
-
   public int getActivityLevel() {
     return mPlay;
   }
-
   public int getSleepLevel() {
     return mSleep;
+  }
+
+  public void timePasses() {
+    mFood--;
   }
 }
