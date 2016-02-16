@@ -49,4 +49,12 @@ public class Tamagotchi {
   public int feed() {
     return setFoodLevel(MAX_FOOD);
   }
+
+  public int play() {
+    return setActivityLevel(MAX_PLAY);
+  }
+
+  public int sleep() {
+    return setSleepLevel(MAX_SLEEP);
+  }
 }

@@ -52,4 +52,16 @@ public class TamagotchiTest {
     assertEquals(10, myPet.feed());
   }
 
+  @Test
+  public void play_fillsActivityLevel_10() {
+    Tamagotchi myPet = new Tamagotchi("lil nugs");
+    assertEquals(10, myPet.play());
+  }
+
+  @Test
+  public void sleep_fillsSleepLevel_10() {
+    Tamagotchi myPet = new Tamagotchi("lil fubz");
+    assertEquals(10, myPet.sleep());
+  }
+
 }
