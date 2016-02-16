@@ -19,4 +19,12 @@ public class TamagotchiTest {
     assertEquals(6, myPet.getFoodLevel());
   }
 
+  @Test
+  public void timePasses_allLevelsDecreaseByOne() {
+    Tamagotchi myPet = new Tamagotchi("lil buddy");
+    myPet.timePasses();
+    assertEquals(6, myPet.getActivityLevel());
+    assertEquals(6, myPet.getSleepLevel());
+  }
+
 }

@@ -29,5 +29,7 @@ public class Tamagotchi {
 
   public void timePasses() {
     mFood--;
+    mPlay--;
+    mSleep--;
   }
 }
