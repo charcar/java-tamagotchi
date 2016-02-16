@@ -40,4 +40,10 @@ public class TamagotchiTest {
     assertEquals(false, myPet.isAlive());
   }
 
+  @Test
+  public void isAlive_allLevelsAbove0_true() {
+    Tamagotchi myPet = new Tamagotchi("lil buddy");
+    assertEquals(true, myPet.isAlive());
+  }
+
 }
