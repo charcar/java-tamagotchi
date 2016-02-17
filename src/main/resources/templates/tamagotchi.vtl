@@ -1,11 +1,13 @@
-<h1>Welcome to the Tamagotchi</h1>
+<h2>Play with your Gotch!</h2>
+<h3>$name</h3>
+<p>Age: $age</p>
+<p>Hunger level: $foodLevel</p>
+<p>Activity level: $playLevel</p>
+<p>Sleep level: $sleepLevel</p>
 
 
-<form action='/tamagotchis' method='post'>
-  <div class="form-group">
-    <label for='name'>Name your Tamagotchi</label>
-    <input type='text' name='name' id='name'>
-  </div>
-
-  <button type="submit" class="btn">Create your Baby</button>
+<form action = "/tamagotchi" method = "post">
+  <button id="feed" name="action" type="submit" value="feed">Feed 'em'</button>
+  <button id="sleep" name="action" type="submit" value="sleep">Sleep 'em</button>
+  <button id="play" name="action" type="submit" value="play">Play with 'em</button>
 </form>

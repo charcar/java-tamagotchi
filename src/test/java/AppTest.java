@@ -21,4 +21,13 @@ public class AppTest extends FluentTest {
       goTo("http://localhost:4567/");
       assertThat(pageSource()).contains("Welcome to the Tamagotchi");
   }
+
+  // @Test
+  // public void tamagotchiNameDisplays() {
+  //     goTo("http://localhost:4567/");
+  //     assertThat(pageSource()).contains("Welcome to the Tamagotchi");
+  //     fill("#name").with("Lil Bibby");
+  //     submit(".name-create");
+  //     assertThat(pageSource()).contains("Lil Bibby");
+  // }
 }
